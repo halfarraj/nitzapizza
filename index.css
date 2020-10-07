@@ -1,0 +1,266 @@
+
+ .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+    margin:50px auto;
+    background-color: lightblue;
+    box-shadow: 3px 6px 10px 5px lightblue ;
+    border-radius: 5px;
+
+ }
+ .new-form{
+    align-content: center;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(153, 156, 156);
+    box-shadow: 5px 5px 5px 10px  rgb(153, 156, 156);
+border-radius: 5px;
+ }
+
+ #bki{
+     width: 100%;
+     border-radius: 0px 0px 5px 5px;
+
+ }
+ .chef-photo{
+
+     float: left;
+    margin:25px auto auto 50px;
+    width: 250px;
+    box-shadow: 3px 3px 10px 10px  rgb(99, 84, 141);
+    border-radius: 4px;
+    border-width: 1px;
+ }
+ .chef-photo:hover{
+   
+     box-shadow: 3PX 3PX 6PX 10PX  yellow;
+     
+ }
+ .container{
+    width: 50%;
+    margin: 20px -90px auto ;
+    float: right;
+}
+.labels{
+    width:90%;
+    float: right;
+    margin: 20px auto;
+    display: contents;
+}
+
+.labels *{
+    display: block;
+}
+
+.labels input[type="text"],
+.labels textarea,
+.labels select{
+    margin-bottom:20px;
+}
+
+#adress{
+    width: 250px;
+
+}
+
+
+.send-but{
+    border: 2px solid rgb(149, 21, 4);
+    width: 50%;
+    height: 40px;
+    position: relative;
+    border-radius: 15px;
+    background: none;
+    box-shadow: none;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.50s ease-in;
+}
+
+.send-but:hover {
+    box-shadow: 1px 1px 5px 5px ;
+    color: white;
+    scale: 1.1;
+    border-width: 0;
+}
+
+
+.send-but::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    top:0;
+    left: 0;
+    border-radius: 15px;
+    z-index: -1;
+   transition: width 0.25s ease-in; 
+   background-color: rgb(149, 21, 4);
+}
+
+.send-but:hover::before {
+    width: 100%;
+}
+
+.content h1 {
+    font-size: 75px;
+    color: black;
+    text-align: center;
+    font-family: Tahoma ;
+}
+.images img{
+    border-radius: 6%;
+    border: 1px solid black;
+    margin: 0 10px 10px;
+    width: calc(50% - 22px);
+    float: left;
+    height: 500px;
+    box-shadow: 1px 6px 10px 5px rgb(149, 21, 4);
+
+}
+
+.images img:hover {
+  box-shadow: 3PX 3PX 6PX 10PX rgb(150, 241, 187);
+    scale: 1.1;
+
+}
+#tss{
+    text-shadow: 1px 1px red;
+}
+#sign{
+    
+    text-align: right;
+}
+
+@media all and (min-width:480px){
+
+    .form-container{
+        height: 300px;
+        margin:10px auto;
+        width: 90%;
+
+    }
+    .new-form{
+        height: 90%;
+        width:95%;
+    }
+    .chef-photo{
+        display: block;
+        margin:5% 5% auto ;
+        width: 160px;
+        box-shadow: 3px 3px 5px 5px  rgb(99, 84, 141);
+
+    }
+    .chef-photo:hover{
+   
+        box-shadow: 3PX 3PX 3PX 3PX  yellow;
+        
+    }
+    .container{
+        margin: 5px -15px auto ;
+    }
+    
+    .labels{
+        margin: 15px auto;
+    }
+    input{
+        width:170px;
+        height:15px;
+    }
+    #adress{
+        width:170px;
+        height:40px;
+    }
+    .labels input[type="text"],
+    .labels textarea,
+    .labels select{
+        margin-bottom:5px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+    .images img{
+        border-radius: 6%;
+        margin: 0 10px 10px;
+        width: calc(50% - 22px);
+        height: 200px;
+        box-shadow: 1px 3px 4px 4px rgb(149, 21, 4);
+    }
+    
+    .images img:hover {
+        box-shadow: 1PX 3PX 4PX 4PX rgb(150, 241, 187);
+          scale: 1.1;
+      
+      }
+}
+
+
+
+@media all and (min-width:650px){
+
+    .form-container{
+        height: 300px;
+        margin:10px auto;
+        width: 90%;
+
+    }
+    .new-form{
+        height: 90%;
+        width:95%;
+    }
+    .chef-photo{
+        display: block;
+        margin:5% 5% auto ;
+        width: 160px;
+        box-shadow: 3px 3px 5px 5px  rgb(99, 84, 141);
+
+    }
+    .chef-photo:hover{
+   
+        box-shadow: 3PX 3PX 3PX 3PX  yellow;
+        
+    }
+    .container{
+        margin: 5px -15px auto ;
+    }
+    
+    .labels{
+        margin: 15px auto;
+    }
+    input{
+        width:170px;
+        height:15px;
+    }
+    #adress{
+        width:170px;
+        height:40px;
+    }
+    .labels input[type="text"],
+    .labels textarea,
+    .labels select{
+        margin-bottom:5px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+    .images img{
+        border-radius: 6%;
+        margin: 0 10px 10px;
+        width: calc(50% - 22px);
+        height: 200px;
+        box-shadow: 1px 3px 4px 4px rgb(149, 21, 4);
+    }
+    
+    .images img:hover {
+        box-shadow: 1PX 3PX 4PX 4PX rgb(150, 241, 187);
+          scale: 1.1;
+      
+      }
+}

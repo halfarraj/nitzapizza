@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: rgb(146, 3, 3);
+    width: 100%;
+    height: 380px;
+}
+
+header ul a {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+
+header ul a li::first-letter {
+    color: white;
+}
+
+header ul a:hover li::first-letter {
+    color: black;
+}
+
+header ul a:hover {
+    background-color: white;
+}
+
+
+hr{
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+#hr-footer{
+    border-top-width: 50px;
+    color: teal;
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 0;
+    
+}
+
+.MainContainer{
+    width: 80%;
+    margin: 150px auto;
+}
+
+
+
+#ani {
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    animation-name: movement;
+    animation-duration: 4s;
+    text-shadow: 2px 2px black;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    
+  }
+
+  #ts{
+    text-shadow: 1px 1px  white;
+ }
+
+@keyframes movement {
+    50% {letter-spacing: 50px;}
+}
+  #footer1{
+      background-color: rgb(146, 3, 3);
+      width: 100%;
+      height: 380px;
+    }
+   #footer{
+        width:80%;
+        margin: auto;
+    }
+    #adresse{
+        color: ivory;
+      float: left;
+      font-family: 'Lobster', cursive;
+      text-shadow: 2px 2px black;
+    }
+   #kontaktInfo{  
+      color: ivory;
+      float: right;
+      font-family: 'Lobster', cursive;
+      text-shadow: 2px 2px black;
+    }
+    #sign{
+    
+        text-align: right;
+    }
+
+@media all and (min-width:480px){
+    header{
+        height: 230px;
+    }
+    header ul a {
+    
+        padding: 1px;
+    }
+    .MainContainer{
+        margin: 15px auto;
+    }
+    #ani {
+        font-size: 40px;
+    }
+    @keyframes movement {
+        50% {letter-spacing: 10px;}
+    }
+   h2{
+    font-size: 25px;
+    
+  }
+  #pagesBaar{
+      font-size: small;
+  }
+
+
+#footer{
+    width:95%;
+    }
+    #fontFooter{
+
+    font-size: 25px;
+    margin : 10px 10px auto ;
+
+    }
+
+    #kontaktInfo{
+        float: left;
+    }
+}
+
+
+@media all and (min-width:650px){
+    header{
+        height: 300px;
+    }
+    header ul a {
+    
+        padding: 1px;
+    }
+    .MainContainer{
+        margin: 15px auto;
+    }
+    #ani {
+        font-size: 50px;
+    }
+    @keyframes movement {
+        50% {letter-spacing: 15px;}
+    }
+   h2{
+    font-size: 40px;
+    
+  }
+  #pagesBaar{
+      font-size: large;
+  }
+
+#footer1{
+    height: 450px;
+
+}
+#footer{
+    width:95%;
+
+    }
+    #fontFooter{
+
+    font-size: 35px;
+    margin : 10px 10px auto ;
+    }
+
+    #kontaktInfo{
+        float: left;
+    }
+}

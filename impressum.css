@@ -1,0 +1,17 @@
+.imp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: lightblue;
+    box-shadow: 3px 6px 10px 5px ;
+    border-radius: 5px;
+    text-shadow: 1px 1px red;
+
+ }
+ #imp-text {
+    text-align: center;
+    padding: 0 20px  ;
+ }

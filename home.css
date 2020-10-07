@@ -1,0 +1,29 @@
+
+#willkommen{
+    font-size: 60px;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    text-shadow: 1px 1px red;
+}
+
+#bk{
+    align-items: center;
+    width : 80%;
+    margin: auto 10% 10%  ;
+    height: 100vh;
+align-content: center;
+border-radius: 10px;
+box-shadow: 5px 5px 10px 10px ;
+}
+
+@media all and (min-width: 480px){
+    #bk{
+         height: 50vh;
+    }
+}
+
+@media all and (min-width: 650px){
+    #bk{
+         height: 70vh;
+    }
+}
